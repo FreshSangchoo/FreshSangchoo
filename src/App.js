@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import ProfileImage from "./assets/profileImage.jpg";
+import Header from "./components/Header.tsx";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className="profile-container">
+        <img src={ProfileImage} alt="Profile" className="profile-image" />
+        <div>설명</div>
+      </div>
+      <div className="contents-container">
+        <Header />
+        <header>헤더</header>
+        <div>안녕하세요</div>
+      </div>
     </div>
   );
 }
