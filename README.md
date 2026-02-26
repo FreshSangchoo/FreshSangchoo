@@ -1,6 +1,4 @@
-[포트폴리오 사이트](https://freshsangchoo.vercel.app)
-
-[기술블로그](https://velog.io/@aprldpdy289/posts)
+[포트폴리오 사이트](https://freshsangchoo.vercel.app) | [기술블로그](https://velog.io/@aprldpdy289/posts)
 
 ## Pinned Repositories
 
